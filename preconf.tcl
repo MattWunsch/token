@@ -1,4 +1,4 @@
-#!/usr/bin/env expect
+*!/usr/bin/env#expect
 
 set timeout 10
 
@@ -24,3 +24,4 @@ expect ">"
 #expect ">"
 send "quit\r\n"
 expect eof
+ 
